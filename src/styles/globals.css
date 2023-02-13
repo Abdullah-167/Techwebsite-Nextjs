@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  max-width: 1190px;
+  padding: 0px 10px;
+  margin: auto;
+}
+.hero-main{
+  background-image: url(../../public/hero-image.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 630px;
+}
+.bg-path{
+  clip-path: polygon(0 0, 100% 0, 91% 87%, 0% 100%);
+}
+.second-bg-path{
+  clip-path: polygon(13% 9%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.webapp-img-path{
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 23% 96%);
+}
+.how-works-path{
+  clip-path: polygon(0 0, 100% 16%, 100% 84%, 0 100%);
+}
+.process-path{
+  clip-path: circle(50% at 50% 50%);
+}
+.project-card{
+  background-image: url(../../public/projects.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 440px;
+}
+.service-card{
+  background-image: url(../../public/services.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 440px;
+}
+.project-hero{
+  background-image: url(../../public/projectheroo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 440px;
+}
+.service-hero{
+  background-image: url(../../public/projectheroo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 650px;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+
+}
+.img-shadow{
+  -webkit-box-shadow: -2px 4px 40px -18px rgba(0,0,0,0.48);
+-moz-box-shadow: -2px 4px 40px -18px rgba(0,0,0,0.48);
+box-shadow: -2px 4px 40px -18px rgba(0,0,0,0.48);
+
+}
+
+.services-main{
+  background-image: url(../../public/hero-image.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 630px;
+}
+.block-bg {
+  clip-path: polygon(51% 0, 100% 0, 100% 55%, 50% 100%, 50% 100%, 0 55%, 0 0);
+
+}
+.article-img {
+  clip-path: polygon(50% 0%, 100% 0, 85% 82%, 63% 88%, 0 100%, 0 0);
+
+}
+
+
+
+.TextSlider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.TextSlider-text {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.TextSlider-button {
+  padding: 12px 24px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
